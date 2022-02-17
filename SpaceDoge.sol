@@ -19,7 +19,7 @@ contract SpaceDoge is ERC721A, Ownable {
     bool public isSalesActive = true;
     
     constructor() ERC721A("Space Doge", "SPACE") {
-        _contractUri = "ipfs://QmYk3mM9skJmqSyMUmdbWz1ZkXJeRam3hzAecux1Fwnj5k/space_doge_contract_uri.json";
+        _contractUri = "ipfs://QmbPMcQQGb4dZdQtfNqYdiech2wzDP8Fq8vrBjeUuJyBdE/space_doge_contract_uri.json";
     }
 
     function tokenURI(uint256 tokenId) public view override returns (string memory) {
